@@ -10,10 +10,10 @@ toggleLangBtn.addEventListener('click', toggleLangMode);
 function toggleLangMode() {
   enLang.hidden = !enLang.hidden;
   uaLang.hidden = !uaLang.hidden;
-  if(toggleLangBtn.innerHTML === english) {
+  if (toggleLangBtn.innerHTML === english) {
     toggleLangBtn.innerHTML = ukrainian;
   } else {
     toggleLangBtn.innerHTML = english;
   }
 }
-  
+
