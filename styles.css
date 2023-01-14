@@ -17,6 +17,12 @@ body {
   --text-decoration-color: #ff9a00;
 }
 
+header{
+  margin: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 30px;
@@ -112,6 +118,8 @@ body {
     width: 20px;
     display: flex;
     justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .contact-info__item-icon path {
@@ -261,4 +269,20 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+
+.btn {
+  background-color: var(--text-decoration-color);
+  color: rgb(0, 0, 0);
+  width: 230px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color:#ff9900a6
 }
